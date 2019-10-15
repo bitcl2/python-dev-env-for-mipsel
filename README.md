@@ -12,4 +12,9 @@ Some python dependents run in mipsel cpu,better in a mipsR2 ,1004k,1.06Ghz.<br>
   -------------------
   >>1.pip -r reqiure.txt<br>
   >>2.pip install xxxx.whl<br>
-  (xxx is what you wanna to install.
+  (xxx is what you wanna to install.<br>
+  ----------------------
+  #好久没有跟新了，当初编译这个的初衷是在执行文件的时候库缺失，由于mipsel架构下本身库不全，安装也无法安装，最后通过虚拟环境交叉编译出可用的
+  文件，再提取。
+  后来的有空放上来。
+  
